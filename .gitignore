@@ -1,5 +1,0 @@
-# .gitignore
-*.sh
-*.log
-*printStar.yh.php
-*/*.gitignore
