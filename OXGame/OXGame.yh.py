@@ -19,7 +19,7 @@ def OXGame():
 	def Player(P):
 		P = int(P)
 		n = Number()
-		if BingoPlate[n] == "X" or BingoPlate[n] == "O":
+		if type(BingoPlate[n]) != int:
 			print("Position already used. Select others.\n")
 			Player(P)
 		else:
